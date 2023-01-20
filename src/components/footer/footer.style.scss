@@ -1,0 +1,112 @@
+@font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Black.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-light-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Light.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Bold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-ExtraBold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-heavy_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Heavy.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-regular_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Regular.otf);
+  }
+//   @font-face {
+//     font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+//     src: url(../../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+//   }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/couture/couture-bld.otf);
+  }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component-target-2_mvc;
+    src: url(../../fonts/couture/couture-bldit.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-bold-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Bold.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-medium-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Medium.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-regular-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Regular.otf);
+  }
+  :root {
+    --color-component-advanced: #F51767;
+    --color-component-const: #121212;
+    --color-component-primary: #000;
+    --color-component-secondary: #ffff;
+  }
+  .footer-glob {
+    background: var(--color-component-advanced);
+    height: max-content;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .footer-left-section {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .left-section_item {
+    margin: 10px;
+}
+  .left-section_item a {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+    justify-content: center;
+    background: var(--color-component-advanced);
+  }
+  .left-section_item a:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+  }
+  .left-section_item i {
+    font-size: 50px;
+    color: var(--color-component-primary);
+  }
+  .footer-right-section {
+    text-align: left;
+    width: 100%;
+  }
+  .footer-right-section ul {
+    display: inline-block;
+    padding: 0;
+  }
+  .footer-right-section ul li {
+    list-style: none;
+    padding: 1px 15px;
+    display: inline-block;
+    user-select: none;
+    font-family: CodeNext-Font-Family-UI-prototype-component-regular_mvc;
+  }
+  .footer-right-section ul li span {
+    font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+  }
+  @media only screen and (max-width: 600px)  {
+    a {
+        cursor: none;
+    }
+  }

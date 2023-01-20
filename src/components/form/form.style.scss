@@ -1,0 +1,139 @@
+@font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Black.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-light-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Light.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Bold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-ExtraBold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-heavy_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Heavy.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-regular_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Regular.otf);
+  }
+//   @font-face {
+//     font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+//     src: url(../../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+//   }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/couture/couture-bld.otf);
+  }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component-target-2_mvc;
+    src: url(../../fonts/couture/couture-bldit.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-bold-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Bold.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-medium-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Medium.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-regular-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Regular.otf);
+  }
+  :root {
+    --color-component-advanced: #F51767;
+    --color-component-primary: #000;
+    --color-component-secondary: #ffff;
+    --color-component-advanced-hover: #f8176ab7;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11.5vh;
+  }
+  .form-container label {
+    margin: 7px;
+  }
+  .form-container label input {
+    outline: none;
+    font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+    resize: none;
+    padding: 10px 20px;
+    width: 40vh;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.8;
+    transition: all 0.5s ease-out;
+    background: var(--color-component-primary);
+    border: 2px solid var(--color-component-advanced);
+    border-radius: 20px;
+    color: var(--color-component-advanced);
+  }
+  .form-container label input:hover {
+    opacity: 1;
+    transition: all 0.5s ease-out;
+  }
+  .form-container label input:focus::placeholder {
+   transition: all 0.4s ease-out;
+   opacity: 0;
+  }
+  .form-container label input::placeholder {
+    font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+   color: var(--color-component-secondary);
+   font-weight: light;
+   transition: all 0.4s ease-out;
+  }
+  .form-container label textarea {
+    outline: none;
+    font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+    resize: none;
+    width: 40vh;
+    padding: 10px 20px;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: all 0.5s ease-out;
+    font-size: 15px;
+    background: var(--color-component-primary);
+    border: 2px solid var(--color-component-advanced);
+    border-radius: 20px;
+    color: var(--color-component-advanced);
+  }
+  .form-container label textarea:hover {
+    transition: all 0.5s ease-out;
+    opacity: 1;
+  }
+  .form-container label textarea:focus::placeholder {
+    opacity: 0;
+   transition: all 0.4s ease-out;
+  }
+  .form-container label textarea::placeholder {
+   font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+   color: var(--color-component-secondary);
+   font-weight: light;
+   transition: all 0.4s ease-out;
+  }
+  .form-container button {
+    padding: 13px 26px;
+    font-size: 18px;
+    border-radius: 15px;
+    font-family: Lemon-Milk-Font-Family-UI-prototype-bold-component_mvc;
+    color: var(--color-component-secondary);
+    background: var(--color-component-advanced);
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s ease-out;
+  }
+  .form-container button:hover {
+    background: var(--color-component-advanced-hover);
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+  }

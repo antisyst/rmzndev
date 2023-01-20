@@ -1,0 +1,139 @@
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Black.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-light-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Light.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Bold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-ExtraBold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-heavy_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Heavy.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-regular_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Regular.otf);
+  }
+//   @font-face {
+//     font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+//     src: url(../../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+//   }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/couture/couture-bld.otf);
+  }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component-target-2_mvc;
+    src: url(../../fonts/couture/couture-bldit.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-bold-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Bold.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-medium-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Medium.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-regular-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Regular.otf);
+  }
+  :root {
+    --color-component-advanced: #F51767;
+    --color-component-const: #121212;
+    --color-component-primary: #000;
+    --color-component-secondary: #ffff;
+  }
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 0.4% 2%;
+    user-select: none;
+    margin: 1% 5%;
+    border: 1px solid var(--color-component-const);
+    transition: all 0.5s ease-out;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+    background: var(--color-component-const);
+}
+.navigation-container:hover {
+  border: 1px solid var(--color-component-advanced);
+  transition: all 0.5s ease-out;
+}
+.navigation-container div {
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.link-component-hide {
+    display: none;
+}
+.link-component {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    font-size: calc(10px + 0.9vmin);
+    overflow: hidden;
+    user-select: none;
+    text-decoration: none;
+    font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+    color: var(--color-component-advanced);
+}
+.link-component:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+}
+.link-component:hover::after {
+    width: 100%;
+    background: var(--color-component-advanced);
+}
+.link-component:active {
+    color: var(--color-component-advanced);
+}
+
+// RESPONSIVE //////////////////////
+@media only screen and (max-width: 600px) {
+  .navigation-container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 0.4% 2%;
+    user-select: none;
+    margin: 3% 5%;
+    border: 1px solid var(--color-component-advanced);
+    transition: all 0.5s ease-out;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+    background: var(--color-component-const);
+  }
+  a {
+    cursor: none;
+  }
+  .navigation-container svg {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+  .link-component {
+    margin-left: 17px;
+    margin-right: 17px;
+    cursor: none;
+
+  }
+}

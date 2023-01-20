@@ -1,0 +1,140 @@
+@font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Black.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-light-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Light.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Bold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-ExtraBold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-heavy_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Heavy.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-regular_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Regular.otf);
+  }
+//   @font-face {
+//     font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+//     src: url(../../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+//   }
+
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/couture/couture-bld.otf);
+  }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component-target-2_mvc;
+    src: url(../../fonts/couture/couture-bldit.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-bold-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Bold.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-medium-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Medium.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-regular-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Regular.otf);
+  }
+  :root {
+    --color-component-advanced: #F51767;
+    --color-component-const: #121212;
+    --color-component-primary: #000;
+    --color-component-secondary: #ffff;
+  }
+
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.top-container_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    margin: 3px 5px;
+}
+.top-container-inline_item {
+    margin: 1px 12px;
+}
+.top-container-inline_item svg {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+}
+.top-container-inline_item svg:hover {
+    transition: all 0.5s ease-out;
+    transform: scale(1.05);
+}
+.bottom-container_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    margin: 3px 5px;
+}
+.bottom-container-inline_item {
+    margin: 1px 12px;
+}
+.bottom-container-inline_item i {
+    font-size: 100px;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+    color: var(--color-component-advanced);
+}
+.bottom-container-inline_item i:hover {
+    transition: all 0.5s ease-out;
+    transform: scale(1.05);
+}
+.bottom-container-inline_item svg {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+}
+.bottom-container-inline_item svg:hover {
+    transition: all 0.5s ease-out;
+    transform: scale(1.05);
+}
+@media only screen and (max-width: 700px) {
+    .top-container-inline_item svg {
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        transition: all 0.5s ease-out;
+    }
+    .bottom-container-inline_item svg {
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        transition: all 0.5s ease-out;
+    }
+    .bottom-container-inline_item i {
+        font-size: 50px;
+        overflow: hidden;
+        transition: all 0.5s ease-out;
+        color: var(--color-component-advanced);
+    }
+}

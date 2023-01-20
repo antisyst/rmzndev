@@ -1,0 +1,71 @@
+@font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Black.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-light-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Light.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Bold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-ExtraBold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-heavy_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Heavy.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-regular_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Regular.otf);
+  }
+//   @font-face {
+//     font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+//     src: url(../../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+//   }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/couture/couture-bld.otf);
+  }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component-target-2_mvc;
+    src: url(../../fonts/couture/couture-bldit.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-bold-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Bold.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-medium-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Medium.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-regular-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Regular.otf);
+  }
+  :root {
+    --color-component-advanced: #F51767;
+    --color-component-primary: #000;
+    --color-component-secondary: #ffff;
+    --color-component-advanced-hover: #f8176ab7;
+  }
+  .skills_h1 {
+    color: var(--color-component-advanced);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+    font-size: calc(20px + 3vmin);
+    transition: all 0.5s ease-out;
+    margin-bottom: 10px;
+  }
+.skills_h1 span {
+  transform: scale(0.8);
+  transition: all 0.5s ease-out;
+}
+.skills_h1 span:hover {
+  transform: scale(1);
+  transition: all 0.5s ease-out;
+}

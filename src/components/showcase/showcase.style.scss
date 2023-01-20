@@ -1,0 +1,257 @@
+@font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Black.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-light-component_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Light.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Bold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-ExtraBold.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-heavy_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Heavy.otf);
+  }
+  @font-face {
+    font-family: CodeNext-Font-Family-UI-prototype-component-regular_mvc;
+    src: url(../../fonts/code_next/CodeNext-Trial-Regular.otf);
+  }
+//   @font-face {
+//     font-family: Cocogoose-Font-Family-UI-prototype-component_mvc;
+//     src: url(../../fonts/cocogoose/Cocogoose\ Pro-trial.ttf);
+//   }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component_mvc;
+    src: url(../../fonts/couture/couture-bld.otf);
+  }
+  @font-face {
+    font-family: Coulture-Font-Family-UI-prototype-component-target-2_mvc;
+    src: url(../../fonts/couture/couture-bldit.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-bold-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Bold.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-medium-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Medium.otf);
+  }
+  @font-face {
+    font-family: Lemon-Milk-Font-Family-UI-prototype-regular-component_mvc;
+    src: url(../../fonts/lemon_milk/LEMONMILK-Regular.otf);
+  }
+  :root {
+    --color-component-advanced: #F51767;
+    --color-component-primary: #000;
+    --color-component-secondary: #ffff;
+    --color-component-advanced-hover: #f8176ab7;
+  }
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 10px 8%;
+  }
+  .showcase-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .showcase-text h1 {
+    color: var(--color-component-advanced);
+    font-family: Lemon-Milk-Font-Family-UI-prototype-bold-component_mvc;
+    letter-spacing: 1.7px;
+    font-size: calc(10px + 5vmin);
+    margin: 0;
+    vertical-align: top;
+  }
+  .showcase-text h2 {
+    color: var(--color-component-advanced);
+    font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+    letter-spacing: 1.7px;
+    font-size: calc(10px + 4.4vmin);
+    margin: 0;
+    vertical-align: top;
+  }
+  .showcase-text h2 .span {
+    color: var(--color-component-secondary);
+  }
+ .showcase-text h1 span {
+  font-size: calc(10px + 1.5vmin);
+  font-family: 'Roboto Slab', serif;
+ }
+ .showcase-text i {
+  font-size: calc(10px + 5vmin);
+  pointer-events: none;
+  user-select: none;
+ }
+ .animate-react-icon {
+  -webkit-animation: rotate 17s normal linear infinite;
+  animation: rotate 17s normal linear infinite;
+ }
+ @keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, 270deg);
+    transform: rotate3d(0, 0, 1, 270deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+.inline-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.inline-container div {
+  padding: 10px;
+  width: 50%;
+  vertical-align: middle;
+}
+.resume_item {
+  text-align: left;
+}
+.inline-container div p {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  font-size: 20px;
+}
+.inline-div_p {
+  padding: 30px;
+  text-align: left;
+}
+.resume-page_button {
+  text-decoration: none;
+  font-size: calc(10px + 1.3vmin);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: max-content;
+  margin-top: 7px;
+  user-select: none;
+  transition: all 0.5s ease-out;
+  color: var(--color-component-secondary);
+  background: var(--color-component-advanced);
+  font-family: CodeNext-Font-Family-UI-prototype-component-extra-bold_mvc;
+  font-weight: bold;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+.resume-page_button:hover {
+ background: var(--color-component-advanced-hover) ;
+}
+.scroll-downs {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  margin-top: 200%;
+  user-select: none;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid var(--color-component-advanced);
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+@media only screen and (max-width: 600px) {
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 5% 4%;
+  }
+  .showcase-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inline-div_p {
+    padding: 5px;
+    text-align: left;
+  }
+  .inline-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  .inline-container div {
+    padding: 0;
+    width: 100%;
+    margin-right: 10%;
+    vertical-align: middle;
+  }
+  .inline-container div p {
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    font-size: 17px;
+  }
+  .mousey {
+    width: 3px;
+    margin-top: 50%;
+    user-select: none;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid var(--color-component-advanced);
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+}
