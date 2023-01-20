@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9195df61.css",
+    "main.js": "/portfolio/static/js/main.760f3371.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Cocogoose Pro-trial.ttf": "/portfolio/static/media/Cocogoose Pro-trial.fc4c5187ea318bde306b.ttf",
+    "static/media/CodeNext-Trial-HairlineItalic.otf": "/portfolio/static/media/CodeNext-Trial-HairlineItalic.f0904c29a60038fa1e75.otf",
+    "static/media/CodeNext-Trial-Heavy.otf": "/portfolio/static/media/CodeNext-Trial-Heavy.131725429701e72af1bd.otf",
+    "static/media/CodeNext-Trial-ExtraBold.otf": "/portfolio/static/media/CodeNext-Trial-ExtraBold.4e424a56c889eb1f6de9.otf",
+    "static/media/CodeNext-Trial-Black.otf": "/portfolio/static/media/CodeNext-Trial-Black.892edb7a7f2fc4e28f0d.otf",
+    "static/media/CodeNext-Trial-Bold.otf": "/portfolio/static/media/CodeNext-Trial-Bold.e1a406b6af5a3c6ad1f2.otf",
+    "static/media/CodeNext-Trial-Regular.otf": "/portfolio/static/media/CodeNext-Trial-Regular.e9f4ee10a19d1294747b.otf",
+    "static/media/CodeNext-Trial-Light.otf": "/portfolio/static/media/CodeNext-Trial-Light.d9577d4e5d2103f32aa5.otf",
+    "static/media/LEMONMILK-Bold.otf": "/portfolio/static/media/LEMONMILK-Bold.ac2b6389ba01ca1f431e.otf",
+    "static/media/LEMONMILK-Regular.otf": "/portfolio/static/media/LEMONMILK-Regular.55fc24317b9c2b507dd8.otf",
+    "static/media/LEMONMILK-Medium.otf": "/portfolio/static/media/LEMONMILK-Medium.3d615d9795b5607c2478.otf",
+    "static/media/couture-bldit.otf": "/portfolio/static/media/couture-bldit.43bbbb2c2ad8b53dda2f.otf",
+    "static/media/couture-bld.otf": "/portfolio/static/media/couture-bld.b144f2b32e00d7ec80e6.otf",
+    "index.html": "/portfolio/index.html",
+    "main.9195df61.css.map": "/portfolio/static/css/main.9195df61.css.map",
+    "main.760f3371.js.map": "/portfolio/static/js/main.760f3371.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9195df61.css",
+    "static/js/main.760f3371.js"
+  ]
+}
